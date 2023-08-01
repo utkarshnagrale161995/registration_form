@@ -1,0 +1,100 @@
+{
+  "customers": [
+    {
+      "id": 1000,
+      "name": "Utkarsh",
+      "email": "utkarsh@gmail.com",
+      "phoneNo": "8311710682",
+      "accountType": "Customer",
+      "address": "south india"
+    },
+    {
+      "name": "Rahul",
+      "email": "sarvade@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty uiopa",
+      "accountType": "Employee",
+      "id": 1001
+    },
+    {
+      "name": "panchi",
+      "email": "panchi@gmail.com",
+      "phoneNo": "8329865909",
+      "address": "rahul sayvade",
+      "accountType": "Employee",
+      "id": 1004
+    },
+    {
+      "name": "himani",
+      "email": "rai@infy.com",
+      "phoneNo": "1285527384",
+      "address": "fjjgbgjdjgiusbfjnj",
+      "accountType": "Employee",
+      "id": 1005
+    },
+    {
+      "name": "newPostdata",
+      "email": "sarvade@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty uiopa sdfgh ",
+      "accountType": "Employee",
+      "id": 1006
+    },
+    {
+      "name": "refresh1",
+      "email": "sarvade@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty uiopa sdfgh ",
+      "accountType": "Customer",
+      "id": 1007
+    },
+    {
+      "name": "new2Postdata",
+      "email": "sarvade@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty uiopa sdfgh ",
+      "accountType": "Employee",
+      "id": 1008
+    },
+    {
+      "name": "new2Postdata",
+      "email": "sarvade@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty uiopa sdfgh ",
+      "accountType": "Employee",
+      "id": 1009
+    },
+    {
+      "name": "new2Postdata",
+      "email": "sarvade@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty uiopa sdfgh ",
+      "accountType": "Employee",
+      "id": 1010
+    },
+    {
+      "name": "utk1234",
+      "email": "lasr@gmail.com",
+      "phoneNo": "1234567890",
+      "address": "qwerty keypad",
+      "accountType": "Customer",
+      "id": 1011
+    },
+    {
+      "name": "qweasd",
+      "email": "zxc@gmail.com",
+      "phoneNo": "1234567889",
+      "address": "qafgplsax",
+      "accountType": "Employee",
+      "id": 1012
+    },
+    {
+      "name": "Utkarsh Shalini",
+      "email": "shalini@gmail.com",
+      "phoneNo": "6060606060",
+      "address": "Delhi",
+      "accountType": "Customer",
+      "id": 1013
+    }
+  ]
+}
