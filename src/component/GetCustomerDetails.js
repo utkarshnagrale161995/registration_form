@@ -61,7 +61,8 @@ export default function GetCustomerDetails(){
 
     function getCustomerDetails(){
         //event.preventDefault();
-        axios.get("http://localhost:4075/customers")
+       // axios.get("http://localhost:4075/customers")
+       axios.get("https://customer-registrationform.onrender.com/customers")
         .then((response)=>{
             console.log(response.data)
             setCustomers(response.data);
@@ -80,7 +81,8 @@ export default function GetCustomerDetails(){
 
     function addCustomer(event){
         event.preventDefault();
-        axios.post("http://localhost:4075/customers",state2)
+        //axios.post("http://localhost:4075/customers",state2)
+        axios.post("https://customer-registrationform.onrender.com/customers",state2)
         .then((response)=>
         {
             console.log(response.data);
@@ -223,7 +225,8 @@ export default function GetCustomerDetails(){
 
     function update(event){
         event.preventDefault();
-        axios.put("http://localhost:4075/customers/"+state.id,state)
+        //axios.put("http://localhost:4075/customers/"+state.id,state)
+        axios.put("https://customer-registrationform.onrender.com/customers/"+state.id,state)
         .then((response)=>{
             console.log(response.data)
             let index=customers.findIndex(customer => customer.id === state.id);
@@ -232,7 +235,7 @@ export default function GetCustomerDetails(){
             customersCopy[index]=state;
             setCustomers(customersCopy)
             setSuccessMessage("Customer Details Succesfully Updated")
-            setErrorMessage("")
+            setErrorMessage("")   
         
         })
         .catch((error)=>{
@@ -250,7 +253,8 @@ export default function GetCustomerDetails(){
     function handleUpdate(event,id){
         event.preventDefault();
         setShowUpdateForm(true);
-        axios.get("http://localhost:4075/customers/"+id)
+        //axios.get("http://localhost:4075/customers/"+id)
+        axios.get("https://customer-registrationform.onrender.com/customers/"+id)
         .then((response)=>{
             console.log(response.data)
             setState(response.data);
@@ -260,7 +264,8 @@ export default function GetCustomerDetails(){
 
     function handleDelete(event,id){
         event.preventDefault();
-        axios.delete("http://localhost:4075/customers/"+id)
+        //axios.delete("http://localhost:4075/customers/"+id)
+        axios.delete("https://customer-registrationform.onrender.com/customers/"+id)
         .then((response)=>{
             alert("Deleted Successfully..");
             let customersCopy=[...customers];

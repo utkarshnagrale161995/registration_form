@@ -27,7 +27,8 @@ export default function RegistrationForm(){
 
    function handleClick(event){
         event.preventDefault();
-        axios.post("http://localhost:4075/customers",state)
+        //axios.post("http://localhost:4075/customers",state)
+        axios.post("https://customer-registrationform.onrender.com/customers",state)
         .then((response)=>{
             console.log(response.data)
             setSuccessMessage(`Registration successfull! Youe customer ID is ${response.data.id}`)
